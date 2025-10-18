@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Mansour Gueye | Gi.Code</title>
+  <style>
+    :root {
+      --blue: #0d5a9a;
+      --green: #0d806f;
+      --bg: #f5fbff;
+      --text: #222;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 15px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: var(--blue);
+      font-size: 2rem;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      color: var(--green);
+      margin-bottom: 15px;
+    }
+
+    section {
+      max-width: 700px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      padding: 30px;
+      margin: 20px 0;
+      text-align: left;
+    }
+
+    section h3 {
+      color: var(--blue);
+      margin-bottom: 10px;
+      border-bottom: 2px solid var(--blue);
+      display: inline-block;
+    }
+
+    ul {
+      margin-top: 10px;
+      margin-left: 20px;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: var(--blue);
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: var(--green);
+    }
+
+    @media (max-width: 600px) {
+      section { padding: 20px; }
+      h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="gi_code_logo.png" alt="Logo Gi.Code" />
+    <h1>Mansour Gueye</h1>
+    <h2>Bureautique & Développement Web</h2>
+  </header>
+
+  <section>
+    <h3>🎓 Formations certifiantes</h3>
+    <ul>
+      <li><strong>Bureautique Professionnelle</strong> — GOMYCODE (Certifié le 02 mars 2025)</li>
+      <li><strong>Développement Web</strong> — GOMYCODE (Certifié le 27 mai 2025)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>💡 Compétences principales</h3>
+    <ul>
+      <li>Maîtrise avancée de Word, Excel, PowerPoint</li>
+      <li>Automatisation de tâches administratives (Python, macros, formulaires)</li>
+      <li>Conception de sites web HTML, CSS, JavaScript</li>
+      <li>Création de formulaires dynamiques reliés à Google Sheets</li>
+      <li>Développement d’applications locales avec Flask & Node.js</li>
+      <li>Utilisation de GitHub, npm, PyInstaller, XAMPP</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>🌍 Projets & réalisations</h3>
+    <p>Découvrez mon espace de formation numérique <strong>Gi.Code</strong> :</p>
+    <a class="btn" href="https://g-mansour1977.github.io/HOME-Gi.-Code-Bureautique-et-Developpement-WEB/" target="_blank">Accéder à Gi.Code</a>
+  </section>
+
+  <section>
+    <h3>📞 Contact</h3>
+    <p>Email : <a href="mailto:gmansour1977@gmail.com">gmansour1977@gmail.com</a></p>
+    <p>Téléphone : +221 776813749</p>
+  </section>
+
+  <footer>
+    © 2025 — Gi.Code | Créé par Mansour Gueye
+  </footer>
+</body>
+</html>
